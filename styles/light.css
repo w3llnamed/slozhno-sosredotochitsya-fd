@@ -25,11 +25,6 @@
 }
 
 
-
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
-}
-
 .theme-light .header__decor,
 .theme-light .header__decor::after {
   display: none;
@@ -45,12 +40,6 @@
 .theme-light .footer::before {
   border-top: 1px solid var(--color-menu-decor);
   border-right: 1px solid var(--color-menu-decor);
-}
-
-
-
-:root.theme-light {
-  /* Переменные светлой темы */    
 }
 
 /* Остальные стили, только при необходимости */
