@@ -404,17 +404,6 @@ img {
     grid-column: 2/4;
   }
 
-
-  .test__section {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-  }
-
-  .test__section__title {
-    grid-column: 1;
-    grid-row: 1;
-  }
-
   .content-section-wide__articles {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -422,9 +411,6 @@ img {
     gap: 20px;
   }
 
-  .test__article {
-    grid-column: initial;
-  }
 
   .content-section-wide .content-section__article {
     grid-column: initial;
