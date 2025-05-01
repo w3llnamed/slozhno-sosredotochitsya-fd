@@ -6,11 +6,12 @@
 :root {
 
   /* COLORS */
-  --color-bg--page: rgba(0,0,40,1);
+  --color-bg-page: rgba(0,0,40,1);
   --color-accent: rgba(255, 0, 112, 1);
   --color-accent-transparent: rgba(255, 0, 112, 0.4);
   --color-text-title-decor: var(--color-bg--page);
   --color-title: rgba(219, 0, 255, 1);
+  --color-title-decor: var(--color-bg-page);
   --color-menu-decor: var(--color-accent);
   --color-menu-button-active: var(--color-accent);
   --color-menu-button-focus: var(--color-accent);
